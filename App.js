@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from "react-dom/client"
-import Header from './Components/Header';
-import Body from './Components/Body';
-import About from './Components/About';
+import Header from './src/Components/Header';
+import Body from './src/Components/Body';
+import About from './src/Components/About';
 import { createBrowserRouter, RouterProvider ,Outlet} from 'react-router-dom';
-import Contact from './Components/Contact';
-import Error from './Components/Error';
-import RestaurantMenu from './Components/RestaurantMenu';
+import Contact from './src/Components/Contact';
+import Error from './src/Components/Error';
+import RestaurantMenu from './src/Components/RestaurantMenu';
 // import Grocery from './Components/Grocery';
 import { lazy,Suspense } from 'react';
 import { Provider } from 'react-redux';
-import appStore from './utils/appStore';
-import Cart from './Components/Cart';
-import "../index.css"; // Adjust path if index.css is elsewhere
+import appStore from './src/utils/appStore';
+import Cart from './src/Components/Cart';
+import "/index.css"; // Adjust path if index.css is elsewhere
 
 
-const Grocery=lazy(()=>import("./Components/Grocery"));
+const Grocery=lazy(()=>import("./src/Components/Grocery"));
 
 const AppLayout = () => {
     
