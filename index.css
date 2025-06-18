@@ -1,0 +1,95 @@
+ @import "tailwindcss";
+/*
+ .header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: auto;
+    height: 100px;
+}
+
+.logo {
+    width: 100px;
+    padding: 20px;
+    padding-top: 5px;
+    
+    
+}
+
+.nav-items ul {
+    display: flex;
+    font-size: 18px;
+    padding: 5px 0px;
+    list-style-type: none;
+}
+
+.nav-items ul li {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.res-card {
+    width: 160px;
+    /* height: 400px; */
+    /* padding: 3px;
+    margin: 5px;
+    
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* box-sizing: inherit;
+    
+    
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.res-logo {
+    width: 98%;
+    height: 38%; */
+    /* padding: 8px;
+}
+.filter-btn{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.shimmer-card{
+    width: 160px;
+    height: 400px;
+    padding: 3px;
+    margin: 5px;
+    background-color: rgb(233, 223, 223);
+}
+.login{
+    padding:0px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    
+}
+.filter{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    
+}
+
+.user-card{
+    padding: 10px;
+    border: 1px solid black;
+}  */
