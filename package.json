@@ -4,9 +4,12 @@
   "description": "food app",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
     "test": "jest",
-    "watch-test":"jest --watch"
+    "watch-test": "jest --watch",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/palak8102/Ambrosia/issues"
   },
-  "homepage": "https://github.com/palak8102/Ambrosia#readme",
+"homepage": "https://palak8102.github.io/Ambrosia",
   "devDependencies": {
     "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
@@ -32,6 +35,7 @@
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.1",
     "events": "^3.3.0",
+    "gh-pages": "^6.3.0",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.0.0",
     "parcel": "^2.15.2",
