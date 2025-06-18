@@ -1,0 +1,8 @@
+/node_modules
+/dist
+.parcle-cache
+/coverage
+.parcel-cache/
+node_modules.zip
+.parcel-cache/
+*.zip
