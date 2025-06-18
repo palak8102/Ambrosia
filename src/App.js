@@ -12,6 +12,8 @@ import { lazy,Suspense } from 'react';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
 import Cart from './Components/Cart';
+import "../index.css"; // Adjust path if index.css is elsewhere
+
 
 const Grocery=lazy(()=>import("./Components/Grocery"));
 
